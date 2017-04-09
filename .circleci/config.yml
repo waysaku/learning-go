@@ -1,0 +1,22 @@
+version: 2
+jobs:
+  build:
+    working_directory: /Users/a11068/go/src/github.com/waysaku/learning-go
+    docker:
+      - image: golang:latest
+    steps:
+      - checkout
+      - run: echo "hello world"
+
+
+
+
+
+
+
+
+
+
+
+
+
